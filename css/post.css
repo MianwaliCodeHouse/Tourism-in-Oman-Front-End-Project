@@ -1,0 +1,55 @@
+main{
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 20px;
+    
+}
+main .post,.comment{
+    margin: 1rem 0;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.144);
+}
+main .form{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #00000046;
+}
+main .form textarea{
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+}
+main .form button{
+    background-color: #0b1c38;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+main .comment p:nth-child(1){
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    background-color: #0b1c38eb;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+}
+main .comment{
+    max-width: 800px;
+}
+main .post img{
+    display: block;
+    max-height: 550px;
+    margin: 0.5em auto;
+    border-radius: 5px;
+    max-width: 100%;
+}
